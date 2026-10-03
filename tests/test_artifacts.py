@@ -35,3 +35,11 @@ def test_frozen_threshold_and_all_completed_controls():
         assert 'jev' in r
         if not r['gold_label']:assert not any(o['differs'] is True for o in r['execution'])
 
+def test_control_verification_ignores_renderer_layout(monkeypatch):
+    import scripts.verify_artifacts as verifier
+    original=verifier.renamed
+    def different_layout(source):
+        code,mapping=original(source)
+        return '\n\n'.join(code.splitlines())+'\n',mapping
+    monkeypatch.setattr(verifier,'renamed',different_layout)
+    verifier.verify()

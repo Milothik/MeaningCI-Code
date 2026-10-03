@@ -39,6 +39,7 @@ python -m pytest -q
 To repeat execution instead of replaying measured execution outcomes, omit `--reuse-execution`. Runtime timeouts depend on hardware and load. New executions belong in a new run directory; keep the measured reference run intact.
 
 Rebuild the identical dataset from its official upstream revision:
+The canonical code renderer is Python-version dependent: use the Python version recorded in `runs/main/config.json` for byte-identical rebuilding. Replay and structural verification use the bundled frozen dataset and work across supported Python versions.
 
 ```sh
 python scripts/download_dataset.py

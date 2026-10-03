@@ -26,7 +26,11 @@ def verify(run=None):
         assert len(task['request']['questions'])==25
         g=gold[p['pair_id']]
         if g['kind']=='presentation':assert ast.dump(ast.parse(p['source']))==ast.dump(ast.parse(p['candidate']))
-        if g['kind']=='rename':assert renamed(p['source'])[0]==p['candidate']
+        if g['kind']=='rename':
+            # ast.unparse whitespace/parentheses vary between Python 3.9 and 3.11.
+            expected,mapping=renamed(p['source'])
+            assert mapping==g['rename_map']
+            assert ast.dump(ast.parse(expected))==ast.dump(ast.parse(p['candidate']))
         if (ROOT/'benchmark/recordings'/(task['task_id']+'.json')).exists():
             recording_for(task,ROOT/'benchmark/recordings');captures+=1
     if run:
@@ -41,4 +45,3 @@ def verify(run=None):
     print(json.dumps({'dataset_valid':True,'pairs':93,'programs':31,'captures_verified':captures,'controls_validated':bool(run)}))
 
 if __name__=='__main__':verify(sys.argv[1] if len(sys.argv)>1 else None)
-
