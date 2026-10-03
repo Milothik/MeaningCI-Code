@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/Milothik/MeaningCI-Code",
+  "visibility": "private",
+  "evidence_commit": "a4bcced1da223cca5504a57d63113171116965b4",
+  "evidence_tree": "7bc31976947300705671a97409affb1398af3b6d",
+  "local_evidence_commit": "52c157ff25c480593789a092ab63465f2944c72b",
+  "exact_evidence_tree_match": true,
+  "files": 362,
+  "verified_measurements": 93,
+  "native_decisions": 2325,
+  "local_tests_passed": 13,
+  "reproduction_summary_exact": true,
+  "publication_method": "GitHub connector Git Data API; existing authenticated UI used only to create private repository",
+  "note": "Remote history initialized independently; local milestone commits are retained in the workspace."
+}
