@@ -1,0 +1,847 @@
+{
+  "pair_id": "bitcount__rename",
+  "program": "bitcount",
+  "split": "test",
+  "gold_label": false,
+  "kind": "rename",
+  "predictions": {
+    "text-change": true,
+    "ast-change": true,
+    "tests-budget-3": false,
+    "tests-full": false,
+    "ci-tests-budget-3": false,
+    "ci-tests-full": false,
+    "jev-direct": false,
+    "meaningci-label": false,
+    "meaningci-jsd": true
+  },
+  "oracle_selected_inputs": false,
+  "oracle_probe_coverage": false,
+  "source_fixture_failures": 0,
+  "execution": [
+    {
+      "input_index": 0,
+      "args": [
+        127
+      ],
+      "expected": 7,
+      "source": {
+        "status": "ok",
+        "value": 7,
+        "mutated_args": [
+          127
+        ],
+        "predicates": {
+          "raises": false,
+          "truthy": true,
+          "equals_input": false,
+          "length_matches": false
+        },
+        "wall_ms": 249.34829999999997
+      },
+      "candidate": {
+        "status": "ok",
+        "value": 7,
+        "mutated_args": [
+          127
+        ],
+        "predicates": {
+          "raises": false,
+          "truthy": true,
+          "equals_input": false,
+          "length_matches": false
+        },
+        "wall_ms": 274.0844
+      },
+      "source_matches_gold": true,
+      "differs": false
+    },
+    {
+      "input_index": 1,
+      "args": [
+        128
+      ],
+      "expected": 1,
+      "source": {
+        "status": "ok",
+        "value": 1,
+        "mutated_args": [
+          128
+        ],
+        "predicates": {
+          "raises": false,
+          "truthy": true,
+          "equals_input": false,
+          "length_matches": false
+        },
+        "wall_ms": 271.988
+      },
+      "candidate": {
+        "status": "ok",
+        "value": 1,
+        "mutated_args": [
+          128
+        ],
+        "predicates": {
+          "raises": false,
+          "truthy": true,
+          "equals_input": false,
+          "length_matches": false
+        },
+        "wall_ms": 294.2247
+      },
+      "source_matches_gold": true,
+      "differs": false
+    },
+    {
+      "input_index": 2,
+      "args": [
+        3005
+      ],
+      "expected": 9,
+      "source": {
+        "status": "ok",
+        "value": 9,
+        "mutated_args": [
+          3005
+        ],
+        "predicates": {
+          "raises": false,
+          "truthy": true,
+          "equals_input": false,
+          "length_matches": false
+        },
+        "wall_ms": 261.9958
+      },
+      "candidate": {
+        "status": "ok",
+        "value": 9,
+        "mutated_args": [
+          3005
+        ],
+        "predicates": {
+          "raises": false,
+          "truthy": true,
+          "equals_input": false,
+          "length_matches": false
+        },
+        "wall_ms": 289.8339000000001
+      },
+      "source_matches_gold": true,
+      "differs": false
+    },
+    {
+      "input_index": 3,
+      "args": [
+        13
+      ],
+      "expected": 3,
+      "source": {
+        "status": "ok",
+        "value": 3,
+        "mutated_args": [
+          13
+        ],
+        "predicates": {
+          "raises": false,
+          "truthy": true,
+          "equals_input": false,
+          "length_matches": false
+        },
+        "wall_ms": 246.75959999999998
+      },
+      "candidate": {
+        "status": "ok",
+        "value": 3,
+        "mutated_args": [
+          13
+        ],
+        "predicates": {
+          "raises": false,
+          "truthy": true,
+          "equals_input": false,
+          "length_matches": false
+        },
+        "wall_ms": 257.01419999999996
+      },
+      "source_matches_gold": true,
+      "differs": false
+    },
+    {
+      "input_index": 4,
+      "args": [
+        14
+      ],
+      "expected": 3,
+      "source": {
+        "status": "ok",
+        "value": 3,
+        "mutated_args": [
+          14
+        ],
+        "predicates": {
+          "raises": false,
+          "truthy": true,
+          "equals_input": false,
+          "length_matches": false
+        },
+        "wall_ms": 301.24219999999997
+      },
+      "candidate": {
+        "status": "ok",
+        "value": 3,
+        "mutated_args": [
+          14
+        ],
+        "predicates": {
+          "raises": false,
+          "truthy": true,
+          "equals_input": false,
+          "length_matches": false
+        },
+        "wall_ms": 274.9858999999999
+      },
+      "source_matches_gold": true,
+      "differs": false
+    },
+    {
+      "input_index": 5,
+      "args": [
+        27
+      ],
+      "expected": 4,
+      "source": {
+        "status": "ok",
+        "value": 4,
+        "mutated_args": [
+          27
+        ],
+        "predicates": {
+          "raises": false,
+          "truthy": true,
+          "equals_input": false,
+          "length_matches": false
+        },
+        "wall_ms": 277.51820000000004
+      },
+      "candidate": {
+        "status": "ok",
+        "value": 4,
+        "mutated_args": [
+          27
+        ],
+        "predicates": {
+          "raises": false,
+          "truthy": true,
+          "equals_input": false,
+          "length_matches": false
+        },
+        "wall_ms": 272.09519999999986
+      },
+      "source_matches_gold": true,
+      "differs": false
+    },
+    {
+      "input_index": 6,
+      "args": [
+        834
+      ],
+      "expected": 4,
+      "source": {
+        "status": "ok",
+        "value": 4,
+        "mutated_args": [
+          834
+        ],
+        "predicates": {
+          "raises": false,
+          "truthy": true,
+          "equals_input": false,
+          "length_matches": false
+        },
+        "wall_ms": 243.82499999999996
+      },
+      "candidate": {
+        "status": "ok",
+        "value": 4,
+        "mutated_args": [
+          834
+        ],
+        "predicates": {
+          "raises": false,
+          "truthy": true,
+          "equals_input": false,
+          "length_matches": false
+        },
+        "wall_ms": 242.1120000000001
+      },
+      "source_matches_gold": true,
+      "differs": false
+    },
+    {
+      "input_index": 7,
+      "args": [
+        254
+      ],
+      "expected": 7,
+      "source": {
+        "status": "ok",
+        "value": 7,
+        "mutated_args": [
+          254
+        ],
+        "predicates": {
+          "raises": false,
+          "truthy": true,
+          "equals_input": false,
+          "length_matches": false
+        },
+        "wall_ms": 241.27740000000009
+      },
+      "candidate": {
+        "status": "ok",
+        "value": 7,
+        "mutated_args": [
+          254
+        ],
+        "predicates": {
+          "raises": false,
+          "truthy": true,
+          "equals_input": false,
+          "length_matches": false
+        },
+        "wall_ms": 231.85659999999996
+      },
+      "source_matches_gold": true,
+      "differs": false
+    },
+    {
+      "input_index": 8,
+      "args": [
+        256
+      ],
+      "expected": 1,
+      "source": {
+        "status": "ok",
+        "value": 1,
+        "mutated_args": [
+          256
+        ],
+        "predicates": {
+          "raises": false,
+          "truthy": true,
+          "equals_input": false,
+          "length_matches": false
+        },
+        "wall_ms": 231.51919999999993
+      },
+      "candidate": {
+        "status": "ok",
+        "value": 1,
+        "mutated_args": [
+          256
+        ],
+        "predicates": {
+          "raises": false,
+          "truthy": true,
+          "equals_input": false,
+          "length_matches": false
+        },
+        "wall_ms": 233.54449999999983
+      },
+      "source_matches_gold": true,
+      "differs": false
+    }
+  ],
+  "oracle_observations": [
+    {
+      "id": "i4_raises",
+      "A": false,
+      "B": false,
+      "differs": false
+    },
+    {
+      "id": "i4_truthy",
+      "A": true,
+      "B": true,
+      "differs": false
+    },
+    {
+      "id": "i4_equals_input",
+      "A": false,
+      "B": false,
+      "differs": false
+    },
+    {
+      "id": "i4_length_matches",
+      "A": false,
+      "B": false,
+      "differs": false
+    },
+    {
+      "id": "i2_raises",
+      "A": false,
+      "B": false,
+      "differs": false
+    },
+    {
+      "id": "i2_truthy",
+      "A": true,
+      "B": true,
+      "differs": false
+    },
+    {
+      "id": "i2_equals_input",
+      "A": false,
+      "B": false,
+      "differs": false
+    },
+    {
+      "id": "i2_length_matches",
+      "A": false,
+      "B": false,
+      "differs": false
+    },
+    {
+      "id": "i0_raises",
+      "A": false,
+      "B": false,
+      "differs": false
+    },
+    {
+      "id": "i0_truthy",
+      "A": true,
+      "B": true,
+      "differs": false
+    },
+    {
+      "id": "i0_equals_input",
+      "A": false,
+      "B": false,
+      "differs": false
+    },
+    {
+      "id": "i0_length_matches",
+      "A": false,
+      "B": false,
+      "differs": false
+    }
+  ],
+  "jev": {
+    "jsd_score": 0.030267560942948083,
+    "has_uncertainty": false,
+    "label_prediction": false,
+    "direct_prediction": false,
+    "vectors": {
+      "A_00": {
+        "probabilities": {
+          "NO": 0.87,
+          "YES": 0.12,
+          "UNKNOWN": 0.01
+        },
+        "raw_probabilities": {
+          "NO": 0.87,
+          "YES": 0.12,
+          "UNKNOWN": 0.01
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "NO",
+        "confidence": 0.81,
+        "top": "NO"
+      },
+      "A_01": {
+        "probabilities": {
+          "NO": 0.14,
+          "YES": 0.84,
+          "UNKNOWN": 0.02
+        },
+        "raw_probabilities": {
+          "NO": 0.14,
+          "YES": 0.84,
+          "UNKNOWN": 0.02
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "YES",
+        "confidence": 0.77,
+        "top": "YES"
+      },
+      "A_02": {
+        "probabilities": {
+          "NO": 0.98,
+          "YES": 0.02,
+          "UNKNOWN": 0.0
+        },
+        "raw_probabilities": {
+          "NO": 0.98,
+          "YES": 0.02,
+          "UNKNOWN": 0
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "NO",
+        "confidence": 0.97,
+        "top": "NO"
+      },
+      "A_03": {
+        "probabilities": {
+          "NO": 0.99,
+          "YES": 0.01,
+          "UNKNOWN": 0.0
+        },
+        "raw_probabilities": {
+          "NO": 0.99,
+          "YES": 0.01,
+          "UNKNOWN": 0
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "NO",
+        "confidence": 0.98,
+        "top": "NO"
+      },
+      "A_04": {
+        "probabilities": {
+          "NO": 0.85,
+          "YES": 0.14,
+          "UNKNOWN": 0.01
+        },
+        "raw_probabilities": {
+          "NO": 0.85,
+          "YES": 0.14,
+          "UNKNOWN": 0.01
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "NO",
+        "confidence": 0.78,
+        "top": "NO"
+      },
+      "A_05": {
+        "probabilities": {
+          "NO": 0.08,
+          "YES": 0.91,
+          "UNKNOWN": 0.01
+        },
+        "raw_probabilities": {
+          "NO": 0.08,
+          "YES": 0.91,
+          "UNKNOWN": 0.01
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "YES",
+        "confidence": 0.87,
+        "top": "YES"
+      },
+      "A_06": {
+        "probabilities": {
+          "NO": 0.98,
+          "YES": 0.02,
+          "UNKNOWN": 0.0
+        },
+        "raw_probabilities": {
+          "NO": 0.98,
+          "YES": 0.02,
+          "UNKNOWN": 0
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "NO",
+        "confidence": 0.97,
+        "top": "NO"
+      },
+      "A_07": {
+        "probabilities": {
+          "NO": 1.0,
+          "UNKNOWN": 0.0,
+          "YES": 0.0
+        },
+        "raw_probabilities": {
+          "NO": 1,
+          "UNKNOWN": 0,
+          "YES": 0
+        },
+        "normalization_mass": 1,
+        "reported_choice": "NO",
+        "confidence": 0.99,
+        "top": "NO"
+      },
+      "A_08": {
+        "probabilities": {
+          "NO": 0.9,
+          "YES": 0.1,
+          "UNKNOWN": 0.0
+        },
+        "raw_probabilities": {
+          "NO": 0.9,
+          "YES": 0.1,
+          "UNKNOWN": 0
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "NO",
+        "confidence": 0.84,
+        "top": "NO"
+      },
+      "A_09": {
+        "probabilities": {
+          "NO": 0.07,
+          "UNKNOWN": 0.01,
+          "YES": 0.92
+        },
+        "raw_probabilities": {
+          "NO": 0.07,
+          "UNKNOWN": 0.01,
+          "YES": 0.92
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "YES",
+        "confidence": 0.89,
+        "top": "YES"
+      },
+      "A_10": {
+        "probabilities": {
+          "NO": 0.97,
+          "YES": 0.03,
+          "UNKNOWN": 0.0
+        },
+        "raw_probabilities": {
+          "NO": 0.97,
+          "YES": 0.03,
+          "UNKNOWN": 0
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "NO",
+        "confidence": 0.95,
+        "top": "NO"
+      },
+      "A_11": {
+        "probabilities": {
+          "NO": 0.99,
+          "YES": 0.01,
+          "UNKNOWN": 0.0
+        },
+        "raw_probabilities": {
+          "NO": 0.99,
+          "YES": 0.01,
+          "UNKNOWN": 0
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "NO",
+        "confidence": 0.99,
+        "top": "NO"
+      },
+      "B_00": {
+        "probabilities": {
+          "NO": 0.91,
+          "YES": 0.08,
+          "UNKNOWN": 0.01
+        },
+        "raw_probabilities": {
+          "NO": 0.91,
+          "YES": 0.08,
+          "UNKNOWN": 0.01
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "NO",
+        "confidence": 0.86,
+        "top": "NO"
+      },
+      "B_01": {
+        "probabilities": {
+          "NO": 0.04,
+          "UNKNOWN": 0.01,
+          "YES": 0.95
+        },
+        "raw_probabilities": {
+          "NO": 0.04,
+          "UNKNOWN": 0.01,
+          "YES": 0.95
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "YES",
+        "confidence": 0.93,
+        "top": "YES"
+      },
+      "B_02": {
+        "probabilities": {
+          "NO": 0.97,
+          "UNKNOWN": 0.0,
+          "YES": 0.03
+        },
+        "raw_probabilities": {
+          "NO": 0.97,
+          "UNKNOWN": 0,
+          "YES": 0.03
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "NO",
+        "confidence": 0.95,
+        "top": "NO"
+      },
+      "B_03": {
+        "probabilities": {
+          "NO": 0.98,
+          "YES": 0.02,
+          "UNKNOWN": 0.0
+        },
+        "raw_probabilities": {
+          "NO": 0.98,
+          "YES": 0.02,
+          "UNKNOWN": 0
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "NO",
+        "confidence": 0.98,
+        "top": "NO"
+      },
+      "B_04": {
+        "probabilities": {
+          "NO": 0.96,
+          "YES": 0.03,
+          "UNKNOWN": 0.01
+        },
+        "raw_probabilities": {
+          "NO": 0.96,
+          "YES": 0.03,
+          "UNKNOWN": 0.01
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "NO",
+        "confidence": 0.95,
+        "top": "NO"
+      },
+      "B_05": {
+        "probabilities": {
+          "NO": 0.06,
+          "UNKNOWN": 0.01,
+          "YES": 0.93
+        },
+        "raw_probabilities": {
+          "NO": 0.06,
+          "UNKNOWN": 0.01,
+          "YES": 0.93
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "YES",
+        "confidence": 0.9,
+        "top": "YES"
+      },
+      "B_06": {
+        "probabilities": {
+          "NO": 0.96,
+          "YES": 0.04,
+          "UNKNOWN": 0.0
+        },
+        "raw_probabilities": {
+          "NO": 0.96,
+          "YES": 0.04,
+          "UNKNOWN": 0
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "NO",
+        "confidence": 0.94,
+        "top": "NO"
+      },
+      "B_07": {
+        "probabilities": {
+          "NO": 1.0,
+          "UNKNOWN": 0.0,
+          "YES": 0.0
+        },
+        "raw_probabilities": {
+          "NO": 1,
+          "UNKNOWN": 0,
+          "YES": 0
+        },
+        "normalization_mass": 1,
+        "reported_choice": "NO",
+        "confidence": 0.99,
+        "top": "NO"
+      },
+      "B_08": {
+        "probabilities": {
+          "NO": 0.91,
+          "UNKNOWN": 0.01,
+          "YES": 0.08
+        },
+        "raw_probabilities": {
+          "NO": 0.91,
+          "UNKNOWN": 0.01,
+          "YES": 0.08
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "NO",
+        "confidence": 0.86,
+        "top": "NO"
+      },
+      "B_09": {
+        "probabilities": {
+          "NO": 0.04,
+          "YES": 0.95,
+          "UNKNOWN": 0.01
+        },
+        "raw_probabilities": {
+          "NO": 0.04,
+          "YES": 0.95,
+          "UNKNOWN": 0.01
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "YES",
+        "confidence": 0.92,
+        "top": "YES"
+      },
+      "B_10": {
+        "probabilities": {
+          "NO": 0.94,
+          "YES": 0.06,
+          "UNKNOWN": 0.0
+        },
+        "raw_probabilities": {
+          "NO": 0.94,
+          "YES": 0.06,
+          "UNKNOWN": 0
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "NO",
+        "confidence": 0.91,
+        "top": "NO"
+      },
+      "B_11": {
+        "probabilities": {
+          "NO": 0.99,
+          "YES": 0.01,
+          "UNKNOWN": 0.0
+        },
+        "raw_probabilities": {
+          "NO": 0.99,
+          "YES": 0.01,
+          "UNKNOWN": 0
+        },
+        "normalization_mass": 1.0,
+        "reported_choice": "NO",
+        "confidence": 0.99,
+        "top": "NO"
+      },
+      "direct": {
+        "probabilities": {
+          "SAME": 1.0,
+          "CHANGED": 0.0,
+          "UNKNOWN": 0.0
+        },
+        "raw_probabilities": {
+          "SAME": 1,
+          "CHANGED": 0,
+          "UNKNOWN": 0
+        },
+        "normalization_mass": 1,
+        "reported_choice": "SAME",
+        "confidence": 1,
+        "top": "SAME"
+      }
+    },
+    "reliable_observations": 12,
+    "usage": {
+      "input_tokens": 4377,
+      "output_tokens": 954
+    },
+    "engine_time_ms": 65.95887601724826,
+    "ui_wall_ms": 2185,
+    "model": "jev-1.13.0",
+    "request_id": "playground_11823a77badaf3b4de2af9248dc8222c56c"
+  }
+}

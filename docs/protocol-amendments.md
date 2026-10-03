@@ -1,0 +1,6 @@
+# Protocol amendments
+
+2026-10-03: Before main model scoring, execution revealed candidate timeouts (e.g. bitcount) where the reference passes. Preserve the preregistered conservative semantic tests (`tests-full`, `tests-budget-3`: unknown on timeout). Add explicitly labelled standard CI controls (`ci-tests-full`, `ci-tests-budget-3`) that fail when a candidate exceeds the one-second budget and its reference passes. This strengthens the conventional baseline and prevents attributing an artificial win to Jev. These controls are a disclosed post-protocol addition; they are not used to select JSD thresholds. A timeout is a CI budget failure, not a proof of semantic nontermination.
+
+The first bitcount test-program capture was used to validate input readback/response handling before validation collection. It is retained, with manual inspection overhead excluded from latency. Threshold candidates and confidence gate were already frozen in protocol.json. No code questions, thresholds or classifications were changed in response to this capture. Threshold selection uses validation only and happens before held-out scoring, as specified in protocol.json; all remaining test requests will be collected after validation selection.
+

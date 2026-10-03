@@ -1,0 +1,12 @@
+.data/
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.env
+*.partial
+*.log
+# Intermediate local runs are retained locally; the complete measured run is main.
+runs/execution-initial/
+runs/validation-freeze/*
+!runs/validation-freeze/frozen_thresholds.json

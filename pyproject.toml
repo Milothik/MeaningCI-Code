@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meaningci-code"
+version = "0.1.0"
+description = "Falsifiable behavioral regression detection on pinned QuixBugs"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+plots = ["matplotlib>=3.8,<4"]
+
+[tool.setuptools.packages.find]
+include = ["meaningci_code*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

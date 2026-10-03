@@ -1,0 +1,68 @@
+[
+  {
+    "pair_id": "bitcount__regression",
+    "jev_error": null,
+    "source_fixture_failures": 0,
+    "timeouts": 9
+  },
+  {
+    "pair_id": "find_first_in_sorted__regression",
+    "jev_error": null,
+    "source_fixture_failures": 0,
+    "timeouts": 2
+  },
+  {
+    "pair_id": "get_factors__rename",
+    "jev_error": null,
+    "source_fixture_failures": 0,
+    "timeouts": 1
+  },
+  {
+    "pair_id": "knapsack__regression",
+    "jev_error": null,
+    "source_fixture_failures": 1,
+    "timeouts": 2
+  },
+  {
+    "pair_id": "knapsack__presentation",
+    "jev_error": null,
+    "source_fixture_failures": 1,
+    "timeouts": 2
+  },
+  {
+    "pair_id": "knapsack__rename",
+    "jev_error": null,
+    "source_fixture_failures": 1,
+    "timeouts": 2
+  },
+  {
+    "pair_id": "levenshtein__regression",
+    "jev_error": null,
+    "source_fixture_failures": 2,
+    "timeouts": 4
+  },
+  {
+    "pair_id": "levenshtein__presentation",
+    "jev_error": null,
+    "source_fixture_failures": 2,
+    "timeouts": 4
+  },
+  {
+    "pair_id": "levenshtein__rename",
+    "jev_error": null,
+    "source_fixture_failures": 2,
+    "timeouts": 4
+  },
+  {
+    "pair_id": "longest_common_subsequence__regression",
+    "jev_error": null,
+    "source_fixture_failures": 0,
+    "timeouts": 1
+  },
+  {
+    "pair_id": "sqrt__regression",
+    "jev_error": null,
+    "source_fixture_failures": 0,
+    "timeouts": 6
+  }
+]

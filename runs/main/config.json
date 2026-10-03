@@ -1,0 +1,127 @@
+{
+  "protocol": {
+    "version": 1,
+    "seed": 20261003,
+    "dataset_sha256": "c62fd9512d34a2f04ba4bee402e7a4f1cc564601816e51be15529a7c4d3c40d7",
+    "recorded_before_inference": true,
+    "primary": "Held-out binary regression detection (test: 8 programs, 24 pairs)",
+    "methods": [
+      "text-change",
+      "ast-change",
+      "tests-budget-3",
+      "tests-full",
+      "jev-direct",
+      "meaningci-label",
+      "meaningci-jsd"
+    ],
+    "threshold_policy": "JSD threshold selected only on validation; fixed tie preference for higher thresholds; frozen before test scoring",
+    "jsd_candidates": [
+      0.01,
+      0.03,
+      0.05,
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.75
+    ],
+    "confidence_gate": 0.65,
+    "unknown": "Explicit abstention; counted incorrect for conservative primary accuracy; additionally report coverage and covered accuracy",
+    "execution_timeout_seconds": 1.0,
+    "execution_workers": 6,
+    "oracle": "Full official expected outputs evaluator-only; ORACLE selected-input and predicate coverage never a method prediction",
+    "statistics": "5000 program-cluster bootstrap resamples and exact paired McNemar on conservative correctness; intervals exploratory with only 8 held-out clusters",
+    "claims": "No equivalence proof; no production-code generalization; Jev direct is not a general-purpose LLM baseline; no favorable outcome required",
+    "cost": "Native usage and engine time for combined batch; method-specific inference costs unmeasured"
+  },
+  "dataset": {
+    "upstream": "https://github.com/jkoppel/QuixBugs.git",
+    "revision": "4257f44b0ff1181dedaedee6a447e133219fcebf",
+    "seed": 20261003,
+    "programs": [
+      "bitcount",
+      "bucketsort",
+      "find_first_in_sorted",
+      "find_in_sorted",
+      "flatten",
+      "gcd",
+      "get_factors",
+      "hanoi",
+      "is_valid_parenthesization",
+      "kheapsort",
+      "knapsack",
+      "kth",
+      "lcs_length",
+      "levenshtein",
+      "lis",
+      "longest_common_subsequence",
+      "max_sublist_sum",
+      "mergesort",
+      "next_palindrome",
+      "next_permutation",
+      "pascal",
+      "possible_change",
+      "powerset",
+      "quicksort",
+      "rpn_eval",
+      "shunting_yard",
+      "sieve",
+      "sqrt",
+      "subsequences",
+      "to_base",
+      "wrap"
+    ],
+    "excluded": [
+      {
+        "program": "breadth_first_search",
+        "reason": "No JSON fixture: graph-object adapter not implemented"
+      },
+      {
+        "program": "depth_first_search",
+        "reason": "No JSON fixture: graph-object adapter not implemented"
+      },
+      {
+        "program": "detect_cycle",
+        "reason": "No JSON fixture: graph-object adapter not implemented"
+      },
+      {
+        "program": "minimum_spanning_tree",
+        "reason": "No JSON fixture: graph-object adapter not implemented"
+      },
+      {
+        "program": "reverse_linked_list",
+        "reason": "No JSON fixture: graph-object adapter not implemented"
+      },
+      {
+        "program": "shortest_path_length",
+        "reason": "No JSON fixture: graph-object adapter not implemented"
+      },
+      {
+        "program": "shortest_path_lengths",
+        "reason": "No JSON fixture: graph-object adapter not implemented"
+      },
+      {
+        "program": "shortest_paths",
+        "reason": "No JSON fixture: graph-object adapter not implemented"
+      },
+      {
+        "program": "topological_ordering",
+        "reason": "No JSON fixture: graph-object adapter not implemented"
+      }
+    ],
+    "pairs": 93,
+    "splits": {
+      "development": 15,
+      "test": 8,
+      "validation": 8
+    },
+    "dataset_sha256": "c62fd9512d34a2f04ba4bee402e7a4f1cc564601816e51be15529a7c4d3c40d7",
+    "scope": "All 31 JSON-compatible QuixBugs programs; 9 graph programs explicitly outside initial scope",
+    "controls": "2 mechanically generated controls per program; not upstream benchmark controls"
+  },
+  "provider": "jev-recorded",
+  "recordings": "benchmark/recordings",
+  "execution_reused": true,
+  "python": "3.9.6 (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit (AMD64)]",
+  "started_at": "2026-10-03T06:15:29.034902+00:00"
+}

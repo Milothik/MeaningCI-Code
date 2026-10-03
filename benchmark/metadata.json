@@ -1,0 +1,85 @@
+{
+  "upstream": "https://github.com/jkoppel/QuixBugs.git",
+  "revision": "4257f44b0ff1181dedaedee6a447e133219fcebf",
+  "seed": 20261003,
+  "programs": [
+    "bitcount",
+    "bucketsort",
+    "find_first_in_sorted",
+    "find_in_sorted",
+    "flatten",
+    "gcd",
+    "get_factors",
+    "hanoi",
+    "is_valid_parenthesization",
+    "kheapsort",
+    "knapsack",
+    "kth",
+    "lcs_length",
+    "levenshtein",
+    "lis",
+    "longest_common_subsequence",
+    "max_sublist_sum",
+    "mergesort",
+    "next_palindrome",
+    "next_permutation",
+    "pascal",
+    "possible_change",
+    "powerset",
+    "quicksort",
+    "rpn_eval",
+    "shunting_yard",
+    "sieve",
+    "sqrt",
+    "subsequences",
+    "to_base",
+    "wrap"
+  ],
+  "excluded": [
+    {
+      "program": "breadth_first_search",
+      "reason": "No JSON fixture: graph-object adapter not implemented"
+    },
+    {
+      "program": "depth_first_search",
+      "reason": "No JSON fixture: graph-object adapter not implemented"
+    },
+    {
+      "program": "detect_cycle",
+      "reason": "No JSON fixture: graph-object adapter not implemented"
+    },
+    {
+      "program": "minimum_spanning_tree",
+      "reason": "No JSON fixture: graph-object adapter not implemented"
+    },
+    {
+      "program": "reverse_linked_list",
+      "reason": "No JSON fixture: graph-object adapter not implemented"
+    },
+    {
+      "program": "shortest_path_length",
+      "reason": "No JSON fixture: graph-object adapter not implemented"
+    },
+    {
+      "program": "shortest_path_lengths",
+      "reason": "No JSON fixture: graph-object adapter not implemented"
+    },
+    {
+      "program": "shortest_paths",
+      "reason": "No JSON fixture: graph-object adapter not implemented"
+    },
+    {
+      "program": "topological_ordering",
+      "reason": "No JSON fixture: graph-object adapter not implemented"
+    }
+  ],
+  "pairs": 93,
+  "splits": {
+    "development": 15,
+    "test": 8,
+    "validation": 8
+  },
+  "dataset_sha256": "c62fd9512d34a2f04ba4bee402e7a4f1cc564601816e51be15529a7c4d3c40d7",
+  "scope": "All 31 JSON-compatible QuixBugs programs; 9 graph programs explicitly outside initial scope",
+  "controls": "2 mechanically generated controls per program; not upstream benchmark controls"
+}

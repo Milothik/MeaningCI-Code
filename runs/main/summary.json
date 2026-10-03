@@ -1,0 +1,1117 @@
+{
+  "splits": {
+    "development": {
+      "ast-change": {
+        "n": 45,
+        "available": 45,
+        "correct": 31,
+        "tp": 15,
+        "fp": 14,
+        "tn": 16,
+        "fn": 0,
+        "abstained": 0,
+        "missing": 0,
+        "accuracy": 0.6888888888888889,
+        "coverage": 1.0,
+        "covered_accuracy": 0.6888888888888889,
+        "precision": 0.5172413793103449,
+        "recall": 1.0,
+        "f1": 0.6818181818181818
+      },
+      "ci-tests-budget-3": {
+        "n": 45,
+        "available": 45,
+        "correct": 43,
+        "tp": 13,
+        "fp": 0,
+        "tn": 30,
+        "fn": 2,
+        "abstained": 0,
+        "missing": 0,
+        "accuracy": 0.9555555555555556,
+        "coverage": 1.0,
+        "covered_accuracy": 0.9555555555555556,
+        "precision": 1.0,
+        "recall": 0.8666666666666667,
+        "f1": 0.9285714285714286
+      },
+      "ci-tests-full": {
+        "n": 45,
+        "available": 45,
+        "correct": 45,
+        "tp": 15,
+        "fp": 0,
+        "tn": 30,
+        "fn": 0,
+        "abstained": 0,
+        "missing": 0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "covered_accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "jev-direct": {
+        "n": 45,
+        "available": 45,
+        "correct": 42,
+        "tp": 12,
+        "fp": 0,
+        "tn": 30,
+        "fn": 3,
+        "abstained": 2,
+        "missing": 0,
+        "accuracy": 0.9333333333333333,
+        "coverage": 0.9555555555555556,
+        "covered_accuracy": 0.9767441860465116,
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8888888888888888
+      },
+      "meaningci-jsd": {
+        "n": 45,
+        "available": 45,
+        "correct": 13,
+        "tp": 9,
+        "fp": 3,
+        "tn": 4,
+        "fn": 6,
+        "abstained": 29,
+        "missing": 0,
+        "accuracy": 0.28888888888888886,
+        "coverage": 0.35555555555555557,
+        "covered_accuracy": 0.8125,
+        "precision": 0.75,
+        "recall": 0.6,
+        "f1": 0.6666666666666666
+      },
+      "meaningci-label": {
+        "n": 45,
+        "available": 45,
+        "correct": 7,
+        "tp": 3,
+        "fp": 0,
+        "tn": 4,
+        "fn": 12,
+        "abstained": 38,
+        "missing": 0,
+        "accuracy": 0.15555555555555556,
+        "coverage": 0.15555555555555556,
+        "covered_accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 0.2,
+        "f1": 0.3333333333333333
+      },
+      "tests-budget-3": {
+        "n": 45,
+        "available": 45,
+        "correct": 42,
+        "tp": 12,
+        "fp": 0,
+        "tn": 30,
+        "fn": 3,
+        "abstained": 1,
+        "missing": 0,
+        "accuracy": 0.9333333333333333,
+        "coverage": 0.9777777777777777,
+        "covered_accuracy": 0.9545454545454546,
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.8888888888888888
+      },
+      "tests-full": {
+        "n": 45,
+        "available": 45,
+        "correct": 44,
+        "tp": 14,
+        "fp": 0,
+        "tn": 30,
+        "fn": 1,
+        "abstained": 1,
+        "missing": 0,
+        "accuracy": 0.9777777777777777,
+        "coverage": 0.9777777777777777,
+        "covered_accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 0.9333333333333333,
+        "f1": 0.9655172413793104
+      },
+      "text-change": {
+        "n": 45,
+        "available": 45,
+        "correct": 16,
+        "tp": 15,
+        "fp": 29,
+        "tn": 1,
+        "fn": 0,
+        "abstained": 0,
+        "missing": 0,
+        "accuracy": 0.35555555555555557,
+        "coverage": 1.0,
+        "covered_accuracy": 0.35555555555555557,
+        "precision": 0.3409090909090909,
+        "recall": 1.0,
+        "f1": 0.5084745762711864
+      }
+    },
+    "validation": {
+      "ast-change": {
+        "n": 24,
+        "available": 24,
+        "correct": 17,
+        "tp": 8,
+        "fp": 7,
+        "tn": 9,
+        "fn": 0,
+        "abstained": 0,
+        "missing": 0,
+        "accuracy": 0.7083333333333334,
+        "coverage": 1.0,
+        "covered_accuracy": 0.7083333333333334,
+        "precision": 0.5333333333333333,
+        "recall": 1.0,
+        "f1": 0.6956521739130435
+      },
+      "ci-tests-budget-3": {
+        "n": 24,
+        "available": 24,
+        "correct": 22,
+        "tp": 7,
+        "fp": 1,
+        "tn": 15,
+        "fn": 1,
+        "abstained": 0,
+        "missing": 0,
+        "accuracy": 0.9166666666666666,
+        "coverage": 1.0,
+        "covered_accuracy": 0.9166666666666666,
+        "precision": 0.875,
+        "recall": 0.875,
+        "f1": 0.875
+      },
+      "ci-tests-full": {
+        "n": 24,
+        "available": 24,
+        "correct": 23,
+        "tp": 8,
+        "fp": 1,
+        "tn": 15,
+        "fn": 0,
+        "abstained": 0,
+        "missing": 0,
+        "accuracy": 0.9583333333333334,
+        "coverage": 1.0,
+        "covered_accuracy": 0.9583333333333334,
+        "precision": 0.8888888888888888,
+        "recall": 1.0,
+        "f1": 0.9411764705882353
+      },
+      "jev-direct": {
+        "n": 24,
+        "available": 24,
+        "correct": 22,
+        "tp": 6,
+        "fp": 0,
+        "tn": 16,
+        "fn": 2,
+        "abstained": 1,
+        "missing": 0,
+        "accuracy": 0.9166666666666666,
+        "coverage": 0.9583333333333334,
+        "covered_accuracy": 0.9565217391304348,
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      },
+      "meaningci-jsd": {
+        "n": 24,
+        "available": 24,
+        "correct": 4,
+        "tp": 4,
+        "fp": 2,
+        "tn": 0,
+        "fn": 4,
+        "abstained": 18,
+        "missing": 0,
+        "accuracy": 0.16666666666666666,
+        "coverage": 0.25,
+        "covered_accuracy": 0.6666666666666666,
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "f1": 0.5714285714285714
+      },
+      "meaningci-label": {
+        "n": 24,
+        "available": 24,
+        "correct": 3,
+        "tp": 2,
+        "fp": 0,
+        "tn": 1,
+        "fn": 6,
+        "abstained": 21,
+        "missing": 0,
+        "accuracy": 0.125,
+        "coverage": 0.125,
+        "covered_accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1": 0.4
+      },
+      "tests-budget-3": {
+        "n": 24,
+        "available": 24,
+        "correct": 22,
+        "tp": 7,
+        "fp": 0,
+        "tn": 15,
+        "fn": 1,
+        "abstained": 1,
+        "missing": 0,
+        "accuracy": 0.9166666666666666,
+        "coverage": 0.9583333333333334,
+        "covered_accuracy": 0.9565217391304348,
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1": 0.9333333333333333
+      },
+      "tests-full": {
+        "n": 24,
+        "available": 24,
+        "correct": 23,
+        "tp": 8,
+        "fp": 0,
+        "tn": 15,
+        "fn": 0,
+        "abstained": 1,
+        "missing": 0,
+        "accuracy": 0.9583333333333334,
+        "coverage": 0.9583333333333334,
+        "covered_accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "text-change": {
+        "n": 24,
+        "available": 24,
+        "correct": 9,
+        "tp": 8,
+        "fp": 15,
+        "tn": 1,
+        "fn": 0,
+        "abstained": 0,
+        "missing": 0,
+        "accuracy": 0.375,
+        "coverage": 1.0,
+        "covered_accuracy": 0.375,
+        "precision": 0.34782608695652173,
+        "recall": 1.0,
+        "f1": 0.5161290322580645
+      }
+    },
+    "test": {
+      "ast-change": {
+        "n": 24,
+        "available": 24,
+        "correct": 17,
+        "tp": 8,
+        "fp": 7,
+        "tn": 9,
+        "fn": 0,
+        "abstained": 0,
+        "missing": 0,
+        "accuracy": 0.7083333333333334,
+        "coverage": 1.0,
+        "covered_accuracy": 0.7083333333333334,
+        "precision": 0.5333333333333333,
+        "recall": 1.0,
+        "f1": 0.6956521739130435
+      },
+      "ci-tests-budget-3": {
+        "n": 24,
+        "available": 24,
+        "correct": 24,
+        "tp": 8,
+        "fp": 0,
+        "tn": 16,
+        "fn": 0,
+        "abstained": 0,
+        "missing": 0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "covered_accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "ci-tests-full": {
+        "n": 24,
+        "available": 24,
+        "correct": 24,
+        "tp": 8,
+        "fp": 0,
+        "tn": 16,
+        "fn": 0,
+        "abstained": 0,
+        "missing": 0,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "covered_accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "jev-direct": {
+        "n": 24,
+        "available": 24,
+        "correct": 21,
+        "tp": 5,
+        "fp": 0,
+        "tn": 16,
+        "fn": 3,
+        "abstained": 2,
+        "missing": 0,
+        "accuracy": 0.875,
+        "coverage": 0.9166666666666666,
+        "covered_accuracy": 0.9545454545454546,
+        "precision": 1.0,
+        "recall": 0.625,
+        "f1": 0.7692307692307693
+      },
+      "meaningci-jsd": {
+        "n": 24,
+        "available": 24,
+        "correct": 9,
+        "tp": 4,
+        "fp": 2,
+        "tn": 5,
+        "fn": 4,
+        "abstained": 13,
+        "missing": 0,
+        "accuracy": 0.375,
+        "coverage": 0.4583333333333333,
+        "covered_accuracy": 0.8181818181818182,
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "f1": 0.5714285714285714
+      },
+      "meaningci-label": {
+        "n": 24,
+        "available": 24,
+        "correct": 7,
+        "tp": 1,
+        "fp": 0,
+        "tn": 6,
+        "fn": 7,
+        "abstained": 15,
+        "missing": 0,
+        "accuracy": 0.2916666666666667,
+        "coverage": 0.375,
+        "covered_accuracy": 0.7777777777777778,
+        "precision": 1.0,
+        "recall": 0.125,
+        "f1": 0.2222222222222222
+      },
+      "tests-budget-3": {
+        "n": 24,
+        "available": 24,
+        "correct": 23,
+        "tp": 7,
+        "fp": 0,
+        "tn": 16,
+        "fn": 1,
+        "abstained": 1,
+        "missing": 0,
+        "accuracy": 0.9583333333333334,
+        "coverage": 0.9583333333333334,
+        "covered_accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1": 0.9333333333333333
+      },
+      "tests-full": {
+        "n": 24,
+        "available": 24,
+        "correct": 23,
+        "tp": 7,
+        "fp": 0,
+        "tn": 16,
+        "fn": 1,
+        "abstained": 1,
+        "missing": 0,
+        "accuracy": 0.9583333333333334,
+        "coverage": 0.9583333333333334,
+        "covered_accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1": 0.9333333333333333
+      },
+      "text-change": {
+        "n": 24,
+        "available": 24,
+        "correct": 9,
+        "tp": 8,
+        "fp": 15,
+        "tn": 1,
+        "fn": 0,
+        "abstained": 0,
+        "missing": 0,
+        "accuracy": 0.375,
+        "coverage": 1.0,
+        "covered_accuracy": 0.375,
+        "precision": 0.34782608695652173,
+        "recall": 1.0,
+        "f1": 0.5161290322580645
+      }
+    },
+    "all": {
+      "ast-change": {
+        "n": 93,
+        "available": 93,
+        "correct": 65,
+        "tp": 31,
+        "fp": 28,
+        "tn": 34,
+        "fn": 0,
+        "abstained": 0,
+        "missing": 0,
+        "accuracy": 0.6989247311827957,
+        "coverage": 1.0,
+        "covered_accuracy": 0.6989247311827957,
+        "precision": 0.5254237288135594,
+        "recall": 1.0,
+        "f1": 0.6888888888888889
+      },
+      "ci-tests-budget-3": {
+        "n": 93,
+        "available": 93,
+        "correct": 89,
+        "tp": 28,
+        "fp": 1,
+        "tn": 61,
+        "fn": 3,
+        "abstained": 0,
+        "missing": 0,
+        "accuracy": 0.956989247311828,
+        "coverage": 1.0,
+        "covered_accuracy": 0.956989247311828,
+        "precision": 0.9655172413793104,
+        "recall": 0.9032258064516129,
+        "f1": 0.9333333333333333
+      },
+      "ci-tests-full": {
+        "n": 93,
+        "available": 93,
+        "correct": 92,
+        "tp": 31,
+        "fp": 1,
+        "tn": 61,
+        "fn": 0,
+        "abstained": 0,
+        "missing": 0,
+        "accuracy": 0.989247311827957,
+        "coverage": 1.0,
+        "covered_accuracy": 0.989247311827957,
+        "precision": 0.96875,
+        "recall": 1.0,
+        "f1": 0.9841269841269841
+      },
+      "jev-direct": {
+        "n": 93,
+        "available": 93,
+        "correct": 85,
+        "tp": 23,
+        "fp": 0,
+        "tn": 62,
+        "fn": 8,
+        "abstained": 5,
+        "missing": 0,
+        "accuracy": 0.9139784946236559,
+        "coverage": 0.946236559139785,
+        "covered_accuracy": 0.9659090909090909,
+        "precision": 1.0,
+        "recall": 0.7419354838709677,
+        "f1": 0.8518518518518519
+      },
+      "meaningci-jsd": {
+        "n": 93,
+        "available": 93,
+        "correct": 26,
+        "tp": 17,
+        "fp": 7,
+        "tn": 9,
+        "fn": 14,
+        "abstained": 60,
+        "missing": 0,
+        "accuracy": 0.27956989247311825,
+        "coverage": 0.3548387096774194,
+        "covered_accuracy": 0.7878787878787878,
+        "precision": 0.7083333333333334,
+        "recall": 0.5483870967741935,
+        "f1": 0.6181818181818182
+      },
+      "meaningci-label": {
+        "n": 93,
+        "available": 93,
+        "correct": 17,
+        "tp": 6,
+        "fp": 0,
+        "tn": 11,
+        "fn": 25,
+        "abstained": 74,
+        "missing": 0,
+        "accuracy": 0.1827956989247312,
+        "coverage": 0.20430107526881722,
+        "covered_accuracy": 0.8947368421052632,
+        "precision": 1.0,
+        "recall": 0.1935483870967742,
+        "f1": 0.32432432432432434
+      },
+      "tests-budget-3": {
+        "n": 93,
+        "available": 93,
+        "correct": 87,
+        "tp": 26,
+        "fp": 0,
+        "tn": 61,
+        "fn": 5,
+        "abstained": 3,
+        "missing": 0,
+        "accuracy": 0.9354838709677419,
+        "coverage": 0.967741935483871,
+        "covered_accuracy": 0.9666666666666667,
+        "precision": 1.0,
+        "recall": 0.8387096774193549,
+        "f1": 0.9122807017543859
+      },
+      "tests-full": {
+        "n": 93,
+        "available": 93,
+        "correct": 90,
+        "tp": 29,
+        "fp": 0,
+        "tn": 61,
+        "fn": 2,
+        "abstained": 3,
+        "missing": 0,
+        "accuracy": 0.967741935483871,
+        "coverage": 0.967741935483871,
+        "covered_accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 0.9354838709677419,
+        "f1": 0.9666666666666667
+      },
+      "text-change": {
+        "n": 93,
+        "available": 93,
+        "correct": 34,
+        "tp": 31,
+        "fp": 59,
+        "tn": 3,
+        "fn": 0,
+        "abstained": 0,
+        "missing": 0,
+        "accuracy": 0.3655913978494624,
+        "coverage": 1.0,
+        "covered_accuracy": 0.3655913978494624,
+        "precision": 0.34444444444444444,
+        "recall": 1.0,
+        "f1": 0.512396694214876
+      }
+    }
+  },
+  "paired_test": [
+    {
+      "a": "meaningci-jsd",
+      "b": "jev-direct",
+      "a_only_correct": 1,
+      "b_only_correct": 13,
+      "accuracy_difference": -0.5,
+      "cluster_bootstrap_95_ci": [
+        -0.75,
+        -0.25
+      ],
+      "mcnemar_exact_p": 0.0018310546875,
+      "cluster_randomization_two_sided_p": 0.03125,
+      "clusters": 8,
+      "resamples": 5000
+    },
+    {
+      "a": "meaningci-jsd",
+      "b": "tests-budget-3",
+      "a_only_correct": 1,
+      "b_only_correct": 15,
+      "accuracy_difference": -0.5833333333333334,
+      "cluster_bootstrap_95_ci": [
+        -0.8333333333333334,
+        -0.2916666666666667
+      ],
+      "mcnemar_exact_p": 0.000518798828125,
+      "cluster_randomization_two_sided_p": 0.03125,
+      "clusters": 8,
+      "resamples": 5000
+    },
+    {
+      "a": "meaningci-jsd",
+      "b": "tests-full",
+      "a_only_correct": 1,
+      "b_only_correct": 15,
+      "accuracy_difference": -0.5833333333333334,
+      "cluster_bootstrap_95_ci": [
+        -0.8333333333333334,
+        -0.2916666666666667
+      ],
+      "mcnemar_exact_p": 0.000518798828125,
+      "cluster_randomization_two_sided_p": 0.03125,
+      "clusters": 8,
+      "resamples": 5000
+    },
+    {
+      "a": "meaningci-jsd",
+      "b": "ci-tests-full",
+      "a_only_correct": 0,
+      "b_only_correct": 15,
+      "accuracy_difference": -0.625,
+      "cluster_bootstrap_95_ci": [
+        -0.8333333333333334,
+        -0.375
+      ],
+      "mcnemar_exact_p": 6.103515625e-05,
+      "cluster_randomization_two_sided_p": 0.015625,
+      "clusters": 8,
+      "resamples": 5000
+    },
+    {
+      "a": "meaningci-jsd",
+      "b": "meaningci-label",
+      "a_only_correct": 3,
+      "b_only_correct": 1,
+      "accuracy_difference": 0.08333333333333333,
+      "cluster_bootstrap_95_ci": [
+        0.0,
+        0.20833333333333334
+      ],
+      "mcnemar_exact_p": 0.625,
+      "cluster_randomization_two_sided_p": 0.5,
+      "clusters": 8,
+      "resamples": 5000
+    }
+  ],
+  "limits": [
+    "Only 8 test program clusters: exploratory confidence intervals",
+    "31 small public algorithms, possible training contamination",
+    "Jev direct is same decision model, not a general LLM judge",
+    "Combined collection batches do not establish per-method cold latency/cost",
+    "Controls generated by this experiment, not supplied by QuixBugs",
+    "No equivalence guarantee or production-code evidence"
+  ],
+  "oracle_diagnostics": {
+    "label": "ORACLE evaluator-only, NOT a method",
+    "regression_programs": 31,
+    "selected_inputs_witness": 26,
+    "predicate_witness": 15
+  },
+  "collection": {
+    "captured_pairs": 93,
+    "failures": 0,
+    "resolved_models": [
+      "jev-1.13.0"
+    ],
+    "native_usage": [
+      {
+        "input_tokens": 4365,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4367,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4377,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4914,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4921,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4960,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 5092,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 5098,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 5159,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 5126,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 5136,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 5155,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4542,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4546,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4565,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4466,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4469,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4466,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4405,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4413,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4423,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4540,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4547,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4572,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4516,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4524,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4545,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4746,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4754,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4776,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 8485,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 8493,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 8594,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4950,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4967,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 5022,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4506,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4514,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4565,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4551,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4555,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4548,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4709,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4719,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4816,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4676,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4685,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4678,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4710,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4718,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4734,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 5375,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 5389,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 5460,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4963,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4973,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 5007,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4750,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4759,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4830,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4421,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4431,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4510,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4659,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4665,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4678,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4435,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4444,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4469,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4935,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4941,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4991,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 5067,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 5077,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 5107,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4855,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4874,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4922,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4298,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4303,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4334,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4424,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4430,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4451,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4554,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 4561,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4587,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4467,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4471,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 4501,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 9608,
+        "output_tokens": 955
+      },
+      {
+        "input_tokens": 9622,
+        "output_tokens": 954
+      },
+      {
+        "input_tokens": 9658,
+        "output_tokens": 954
+      }
+    ],
+    "method_specific_cost": null,
+    "general_llm_judge": "Unavailable: no configured credentials; not substituted",
+    "native_input_tokens": 463936,
+    "native_output_tokens": 88747,
+    "native_decisions": 2325,
+    "engine_p50_ms": 79.99541299068369,
+    "engine_p95_ms": 123.96576000173809,
+    "ui_p50_ms": 2272,
+    "ui_p95_ms": 3053,
+    "ui_latency_samples": 91,
+    "price_estimate_usd": null,
+    "price_estimate_reason": "No current billing tariff verified; native tokens reported, no fabricated money estimate"
+  },
+  "probe_understanding": {
+    "known_binary_observations": 2184,
+    "top_label_correct": 1966,
+    "accuracy": 0.9001831501831502,
+    "confident_observations": 1840,
+    "confident_correct": 1741,
+    "confident_accuracy": 0.946195652173913,
+    "scope": "Descriptive all-split observations; repeated contexts are correlated; not an independent held-out metric"
+  }
+}
